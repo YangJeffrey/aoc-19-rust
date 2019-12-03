@@ -1,6 +1,6 @@
 var fs = require('fs');
-var read = fs.readFileSync("wire1.txt");
-var read2 = fs.readFileSync("wire2.txt");
+var read = fs.readFileSync("day-3-wire1.txt");
+var read2 = fs.readFileSync("day-3-wire2.txt");
 var wire1 = read.toString().split(",");
 var wire2= read2.toString().split(",");
 
