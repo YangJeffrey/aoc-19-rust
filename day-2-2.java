@@ -1,6 +1,4 @@
-package mp1;
-
-public class AoC {
+public class Day2 {
 	public static void main(String[] args) {
 		for (int j = 0; j < 100; j++) {
 			for (int k = 0; k < 100; k++) {
