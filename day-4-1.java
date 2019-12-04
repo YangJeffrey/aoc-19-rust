@@ -1,6 +1,4 @@
-package mp1;
-
-public class AoC {
+public class Day4 {
 	public static void main(String[] args) {
 		int min = 178416;
 		int max = 676461;
