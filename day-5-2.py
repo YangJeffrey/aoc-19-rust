@@ -1,5 +1,5 @@
 def TEST(in_put):
-    with open('input.txt', 'r') as f:
+    with open('day-5.txt', 'r') as f:
         opcodelist = [int(op) for op in f.readline().split(',')]
     p = 0
     while opcodelist[p] != 99:
