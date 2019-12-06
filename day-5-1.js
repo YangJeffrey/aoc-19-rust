@@ -1,4 +1,4 @@
-const puzzleinput = require("fs").readFileSync("input.txt").toString().split(",")
+const puzzleinput = require("fs").readFileSync("day-5.txt").toString().split(",")
 const inputinstr = 1
  
 for (let curr = 0; curr < puzzleinput.length;) {
