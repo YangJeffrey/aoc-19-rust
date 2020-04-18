@@ -1,1 +1,1 @@
-<b> Advent-of-Code-2019 </b>
+<b> Advent of Code 2019 in Rust</b>
