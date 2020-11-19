@@ -1,2 +1,2 @@
-<b> Advent of Code 2019 </b>
-<div> redone in Rust </div>
+#Learning Rust
+<div> Documentation + Advent of Code 2019 </div>
