@@ -1,9 +1,9 @@
 ## Learning Rust
-Documentation
-3.1 - variables_ 
-3.2 - data types_
-3.3 - functions 
-3.5 - control flow 
+## Book
+3.1 variables<br/>
+3.2 data types<br/>
+3.3 functions<br/>
+3.5 control flow<br/>
 
-Advent of Code
-2019 - day 1 part 1 + 2
+## Advent of Code
+2019 day 1<br/>
