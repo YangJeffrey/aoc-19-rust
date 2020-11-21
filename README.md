@@ -1,7 +1,7 @@
 ## Learning Rust
 Documentation
-3.1 - variables 
-3.2 - data types 
+3.1 - variables_ 
+3.2 - data types_
 3.3 - functions 
 3.5 - control flow 
 
