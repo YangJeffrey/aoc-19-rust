@@ -6,4 +6,4 @@
 3.5 control flow<br/>
 
 ## Advent of Code
-2019 day 1<br/>
+2019
