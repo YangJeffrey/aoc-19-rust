@@ -1,20 +1,21 @@
-fn main() {
-  let mut totalfuel1 = 0;
-  let mut totalfuel2 = 0;
-  let v = vec![138390,145043,86679,120601,58443,54761,81175,127897,69559,56776,145671,69003,119334,130205,77249,74637,92068,66594,90485,140465,73444,107772,107639,144420,58764,56299,66010,84841,83686,139830,136298,135009,136506,61547,73653,136219,138875,95483,91695,146597,121813,131555,145848,139396,141520,54207,86748,98355,67179,59820,137299,92371,74512,110854,111960,63787,114701,63773,127377,128159,120370,138193,106409,135550,107235,56662,99314,69052,131816,138788,96494,73025,148907,85883,86138,86965,55645,119284,80690,69276,116640,108595,50721,94623,93224,137069,130118,97916,82232,137621,97909,74061,140419,101795,69316,64973,90578,118503,100369];
-  for i in &v {
-     totalfuel1 += rocketeq(*i);
-  }
-  for j in &v {
-     let mut m = *j;
-     while rocketeq(m) > 0 {
-       m = rocketeq(m);
-       totalfuel2 += m;
-     }
-  }
-  println!("Part 1: {}", totalfuel1);
-  println!("Part 2: {}", totalfuel2);
-}
-fn rocketeq(m: i32) -> i32 {
-  m / 3 - 2
-}
+ fn main() {
+        let input = include_str!("day1.txt");
+        let mut v: Vec<i32> = Vec::new();
+        let split = input.split("\n");
+        let mut counter_upper = 0;
+        for s in split {
+            v.push(s.parse().unwrap());
+        }
+         for mut module in v {
+             while module > 0 {
+                 counter_upper += fuel_required(module);
+                 module = fuel_required(module);
+             }
+         }
+
+        println!("{}", counter_upper);
+ }
+
+ fn fuel_required(x: i32) -> i32 {
+        x/3-2
+ }
