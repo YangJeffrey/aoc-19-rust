@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("day12020.txt");
+    let input = include_str!("day1.txt");
     let mut v: Vec<i32> = Vec::new();
     let split = input.split("\n");
     for s in split {
